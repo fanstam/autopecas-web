@@ -1,22 +1,22 @@
-import "@/App.css";
+import "./App.css";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Toaster } from "sonner";
-import { AuthProvider } from "@/contexts/AuthContext";
-import ProtectedRoute from "@/components/ProtectedRoute";
-import Layout from "@/components/Layout";
-import Login from "@/pages/Login";
-import Register from "@/pages/Register";
-import SubscriptionExpired from "@/pages/SubscriptionExpired";
-import Dashboard from "@/pages/Dashboard";
-import Sales from "@/pages/Sales";
-import Products from "@/pages/Products";
-import Stock from "@/pages/Stock";
-import Customers from "@/pages/Customers";
-import Appointments from "@/pages/Appointments";
-import Financial from "@/pages/Financial";
-import Reports from "@/pages/Reports";
-import AdminSubscriptions from "@/pages/AdminSubscriptions";
-import Settings from "@/pages/Settings";
+import { AuthProvider } from "./contexts/AuthContext";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Layout from "./components/Layout";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import SubscriptionExpired from "./pages/SubscriptionExpired";
+import Dashboard from "./pages/Dashboard";
+import Sales from "./pages/Sales";
+import Products from "./pages/Products";
+import Stock from "./pages/Stock";
+import Customers from "./pages/Customers";
+import Appointments from "./pages/Appointments";
+import Financial from "./pages/Financial";
+import Reports from "./pages/Reports";
+import AdminSubscriptions from "./pages/AdminSubscriptions";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
